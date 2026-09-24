@@ -1,0 +1,52 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL="https://gitlab.com/stalking-dragons/minecraft/utility-nexus-qol"
+logoFile="icon.png"
+credits="Developed by Stalking Dragons"
+description='''Small optional quality-of-life tweaks for NeoForge, starting with a vanilla-style beacon beam of light rising from every Waystones block so travel hubs stand out at a distance. Requires the Waystones mod for that feature; does nothing without it.'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="waystones"
+    type="optional"
+    versionRange="[21.1,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="polymorph"
+    type="optional"
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="toms_storage"
+    type="optional"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mixins]]
+    config="utility_nexus_qol.mixins.json"
+
+[[mixins]]
+    config="utility_nexus_qol_compat_toms_storage.mixins.json"

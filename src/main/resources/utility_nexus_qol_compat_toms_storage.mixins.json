@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "minVersion": "0.8.5",
+  "package": "com.skd.utilitynexusqol.mixin.compat.tomsstorage",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["MixinCraftingTerminalBlockEntity"],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

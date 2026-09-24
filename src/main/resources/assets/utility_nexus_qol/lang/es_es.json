@@ -1,0 +1,12 @@
+{
+  "utility_nexus_qol.configuration.title": "Utility Nexus QoL",
+  "utility_nexus_qol.configuration.waystoneBeam": "Haz de baliza de Waystone",
+  "utility_nexus_qol.configuration.waystoneBeam.enabled": "Activado",
+  "utility_nexus_qol.configuration.waystoneBeam.beamHeightBlocks": "Altura del haz (bloques)",
+  "utility_nexus_qol.configuration.waystoneBeam.colorRed": "Color del haz - rojo (0-255)",
+  "utility_nexus_qol.configuration.waystoneBeam.colorGreen": "Color del haz - verde (0-255)",
+  "utility_nexus_qol.configuration.waystoneBeam.colorBlue": "Color del haz - azul (0-255)",
+  "utility_nexus_qol.configuration.recipeSelect": "Selector de recetas en conflicto",
+  "utility_nexus_qol.configuration.recipeSelect.enabled": "Activado",
+  "utility_nexus_qol.recipeselect.button": "Elegir resultado de la receta"
+}

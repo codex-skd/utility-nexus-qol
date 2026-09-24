@@ -1,0 +1,12 @@
+{
+  "utility_nexus_qol.configuration.title": "Utility Nexus QoL",
+  "utility_nexus_qol.configuration.waystoneBeam": "Waystone Beacon Beam",
+  "utility_nexus_qol.configuration.waystoneBeam.enabled": "Enabled",
+  "utility_nexus_qol.configuration.waystoneBeam.beamHeightBlocks": "Beam height (blocks)",
+  "utility_nexus_qol.configuration.waystoneBeam.colorRed": "Beam color - red (0-255)",
+  "utility_nexus_qol.configuration.waystoneBeam.colorGreen": "Beam color - green (0-255)",
+  "utility_nexus_qol.configuration.waystoneBeam.colorBlue": "Beam color - blue (0-255)",
+  "utility_nexus_qol.configuration.recipeSelect": "Recipe Conflict Selector",
+  "utility_nexus_qol.configuration.recipeSelect.enabled": "Enabled",
+  "utility_nexus_qol.recipeselect.button": "Choose recipe result"
+}
